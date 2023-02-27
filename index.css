@@ -6,3 +6,40 @@
     font-size: 18px;
     font-family: 'Poppins', sans-serif;
 }
+body {
+}
+header {
+    position: sticky;   
+    align-items: center;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #000000;
+}
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+    margin-left: 5rem;
+    margin-right: 5rem;;
+}
+
+.nav_elements {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    align-items: center;
+    gap: 64px;
+}
+.nav_elements > a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+.nav_elements > a:nth-child(4) {
+    padding: 5px 25px;
+    color: white;
+    border-radius: 25px;
+    background-color: #EE6C4D;
+    font-weight: 700;
+}
