@@ -6,13 +6,11 @@
     font-size: 18px;
     font-family: 'Poppins', sans-serif;
 }
-body {
-}
 header {
     position: sticky;   
     align-items: center;
     margin-bottom: 20px;
-    border-bottom: 1px solid #000000;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 .navbar {
     display: flex;
@@ -34,7 +32,10 @@ header {
 .nav_elements > a {
     text-decoration: none;
     color: black;
-    font-size: 16px;
+    font-size: 18px;
+}
+.nav_elements > a:nth-child(1) {
+    font-weight: 700;
 }
 .nav_elements > a:nth-child(4) {
     padding: 5px 25px;
