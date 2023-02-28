@@ -18,8 +18,8 @@ header {
     justify-content: space-between;
     align-items: center;
     height: 75px;
-    margin-left: 5rem;
-    margin-right: 5rem;;
+    margin-left: 103px;
+    margin-right: 100px;
 }
 
 .nav_elements {
@@ -33,6 +33,17 @@ header {
     text-decoration: none;
     color: black;
     font-size: 18px;
+    transition: 0.3s;
+}
+.nav_elements > a:hover {
+    font-weight: 700;
+    color:#EE6C4D;
+    cursor: pointer;
+    font-size: 20px;
+}
+.nav_elements > a:nth-child(4):hover {
+    background-color: #ff3300;
+    color: rgba(250, 250, 250, 0.74);
 }
 .nav_elements > a:nth-child(1) {
     font-weight: 700;
