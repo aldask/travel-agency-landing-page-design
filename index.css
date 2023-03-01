@@ -96,14 +96,15 @@ span {
 /* DESTINATIONS SECTION */
 
 .popular_destinations {
-    background-color: white;
     background-image: url(assets/destinations_background.png);
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     overflow-x: hidden;
-    background-size: cover;
 }
 .destinationsH1 {
     color: white;
@@ -121,7 +122,6 @@ span {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 10px;
 }
   
 .cities {
@@ -129,15 +129,20 @@ span {
     height: 455px;
     object-fit: cover;
     border-radius: 12px;
+    margin-bottom: 25px;
 }
 .cityInfo {
     background-color: white;
     border-radius: 12px;
-    display: block;
     width: 275px;
     margin: 5px;
+    padding: 15px;
 }
-  
-.city h2 {
-    font-size: 20px;
+.cityInfo h2 {
+    color: #293241;
+    size: 24px;
+}
+.cityInfo h3 {
+    font-size: 18px;
+    font-weight: 400;
 }
