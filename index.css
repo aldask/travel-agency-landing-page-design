@@ -6,13 +6,16 @@
     font-size: 18px;
     font-family: 'Poppins', sans-serif;
 }
-header {
-    position: sticky;   
+
+/* HEADER */
+
+header {   
     align-items: center;
     margin-bottom: 20px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 .navbar {
+    position: sticky;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -29,29 +32,58 @@ header {
     align-items: center;
     gap: 64px;
 }
-.nav_elements > a {
+.button {
     text-decoration: none;
     color: black;
     font-size: 18px;
     transition: 0.3s;
 }
-.nav_elements > a:hover {
+.button:hover {
     font-weight: 700;
     color:#EE6C4D;
     cursor: pointer;
     font-size: 20px;
 }
-.nav_elements > a:nth-child(4):hover {
-    background-color: #ff3300;
-    color: rgba(250, 250, 250, 0.74);
-}
-.nav_elements > a:nth-child(1) {
+.button:nth-child(1) {
     font-weight: 700;
 }
-.nav_elements > a:nth-child(4) {
+
+/* SHARED CLASSES */
+/* Button */
+.interactive {
     padding: 5px 25px;
     color: white;
     border-radius: 25px;
     background-color: #EE6C4D;
     font-weight: 700;
+}
+.interactive:hover {
+    background-color: #ff3300;
+    color: rgba(250, 250, 250, 0.74);
+}
+
+/* HERO SECTION */
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 103px 155px;
+}
+h1 {
+    color: #EE6C4D;
+    font-weight: 700;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+p {
+    font-size: 20px;
+    color: #293241;
+    width: 360px;
+    margin-bottom: 24px;
+}
+span {
+    font-weight: 700;
+    color: #293241;
 }
