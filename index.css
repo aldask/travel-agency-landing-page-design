@@ -65,7 +65,6 @@ header {
 .container {
     display: flex;
     flex-direction: column;
-    margin: 20px 103px 155px;
 }
 
 /* HERO SECTION */
@@ -75,6 +74,7 @@ header {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    margin: 20px 103px 155px;
 }
 .heroH1 {
     color: #EE6C4D;
@@ -102,6 +102,8 @@ span {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    overflow-x: hidden;
+    background-size: cover;
 }
 .destinationsH1 {
     color: white;
@@ -110,10 +112,11 @@ span {
 }
 .locations {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    gap: 45px;
+    
 }
-  
 .city {
     display: flex;
     flex-direction: column;
@@ -125,9 +128,16 @@ span {
     width: 275px;
     height: 455px;
     object-fit: cover;
+    border-radius: 12px;
+}
+.cityInfo {
+    background-color: white;
+    border-radius: 12px;
+    display: block;
+    width: 275px;
+    margin: 5px;
 }
   
 .city h2 {
-    margin-top: 10px;
     font-size: 20px;
 }
