@@ -62,16 +62,21 @@ header {
     color: rgba(250, 250, 250, 0.74);
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 103px 155px;
+}
+
 /* HERO SECTION */
 
-.container {
+.hero {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin: 20px 103px 155px;
 }
-h1 {
+.heroH1 {
     color: #EE6C4D;
     font-weight: 700;
     font-size: 50px;
@@ -86,4 +91,43 @@ p {
 span {
     font-weight: 700;
     color: #293241;
+}
+
+/* DESTINATIONS SECTION */
+
+.popular_destinations {
+    background-color: white;
+    background-image: url(assets/destinations_background.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.destinationsH1 {
+    color: white;
+    font-size: 36px;
+    font-weight: 700;
+}
+.locations {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+  
+.city {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+  
+.cities {
+    width: 275px;
+    height: 455px;
+    object-fit: cover;
+}
+  
+.city h2 {
+    margin-top: 10px;
+    font-size: 20px;
 }
