@@ -24,7 +24,6 @@ header {
     margin-left: 103px;
     margin-right: 100px;
 }
-
 .nav_elements {
     display: flex;
     flex-direction: row;
@@ -102,14 +101,16 @@ span {
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     overflow-x: hidden;
+    height: 1053px;
 }
 .destinationsH1 {
     color: white;
     font-size: 36px;
     font-weight: 700;
+    margin-bottom: 100px;
 }
 .locations {
     display: flex;
@@ -123,7 +124,6 @@ span {
     flex-direction: column;
     align-items: center;
 }
-  
 .cities {
     width: 275px;
     height: 455px;
@@ -137,6 +137,11 @@ span {
     width: 275px;
     margin: 5px;
     padding: 15px;
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out; /* add transition property */
+}
+.city:hover .cityInfo {
+    opacity: 1;
 }
 .cityInfo h2 {
     color: #293241;
