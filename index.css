@@ -291,12 +291,31 @@ footer {
     overflow-x: hidden;
     height: 385px;
 }
-.box1, .box2, .box3, .box4, .box5 {
+.box1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 160px;
+    gap: 100px;
+}
+.whiteLogo {
+    filter: invert(95%) sepia(95%) saturate(19%) hue-rotate(283deg) brightness(105%) contrast(105%);
+}
+.interactiveButtons {
+    display: flex;
+    flex-direction: row;
+    width: 150px;
+    justify-content: space-between;
+}
+.box2, .box3, .box4, .box5 {
     display: flex;
     flex-direction: column;
     font-size: 18px;
     font-weight: 400;
     color: white;
+    margin-top: 160px;
 }
 .box1 a, .box2 a, .box3 a, .box4 a, .box5 a {
     font-size: 18px;
@@ -304,8 +323,11 @@ footer {
     color: white;
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+    line-height: 3;
 }
 h4 {
     margin-bottom: 50px;
     color: white;
+    font-weight: 700;
 }
