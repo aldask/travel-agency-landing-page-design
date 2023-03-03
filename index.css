@@ -218,7 +218,6 @@ p {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin-top: 355px;
     background: #293241;
     max-width: 1240px;
     border-radius: 20px;
@@ -281,15 +280,17 @@ p {
 
 footer {
     background-image: url(assets/footer_background.png);
-    background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: flex-start;
     overflow-x: hidden;
-    height: 385px;
+    overflow-y: hidden;
+    height: auto;
+    padding-bottom: 120px;
 }
 .box1 {
     display: flex;
@@ -298,7 +299,7 @@ footer {
     font-size: 18px;
     font-weight: 400;
     margin-top: 160px;
-    gap: 100px;
+    gap: 110px
 }
 .whiteLogo {
     filter: invert(95%) sepia(95%) saturate(19%) hue-rotate(283deg) brightness(105%) contrast(105%);
