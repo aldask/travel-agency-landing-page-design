@@ -34,7 +34,6 @@ The website was built using the following technologies:
 - **HTML:** The website's content and structure were created using HTML.
 - **CSS:** The website's styles were defined using CSS.
 - **JavaScript:** Some interactive elements on the website, such as the subscription form, were created using JavaScript.
-- **Bootstrap:** The website was built using the Bootstrap CSS framework, which provides responsive design and pre-built UI components.
 - **Vercel:** The website is hosted on Vercel, a cloud hosting platform for static websites.
 
 ## Contributing
