@@ -18,7 +18,7 @@ soon
 
 ## Screenshots
 
-soon
+![landing-page](assets/landing-page.png)
 
 ## Installation and Usage
 
