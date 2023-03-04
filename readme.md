@@ -20,6 +20,10 @@ I created this project to hone and develop my coding abilities. My objective was
 
 ![landing-page](assets/landing-page.png)
 
+## Live Preview
+
+You can view a live preview of the landing page [here](https://travel-agency-landing-page-design-git-feature-rea-956f4c-aldask.vercel.app/).
+
 ## Installation and Usage
 
 To run this project locally, you can follow these steps:
@@ -49,7 +53,7 @@ This project is licensed under the [MIT License](https://opensource.org/licenses
 
 This project was created by **Aldas Kasputis.**
 
-- LinkedIn: [https://www.linkedin.com/in/aldas-k-2ab99b1b4/]
-- GitHub: [https://github.com/aldask]
+- [LinkedIn](https://www.linkedin.com/in/aldas-k-2ab99b1b4/)
+- [GitHub](https://github.com/aldask)
 
 If you have any questions or feedback, feel free to reach out to me through one of these channels. Thank you for checking out my project!
