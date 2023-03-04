@@ -6,7 +6,7 @@
 
 ## Description
 
-soon
+I created this project to hone and develop my coding abilities. My objective was to replicate a design in Figma as closely as possible to the original design. I used current web development tools and best practices throughout the development process to produce clean, well-structured code. It also gave me the chance to practice with various tools and technologies, such HTML, CSS, and JavaScript. I was able to polish my problem-solving abilities and solidify my grasp of web development concepts by concentrating on attention to detail and creating a faithful reproduction of the original design.
 
 ## Table of Contents
 
