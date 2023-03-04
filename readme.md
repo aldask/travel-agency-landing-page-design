@@ -22,7 +22,7 @@ I created this project to hone and develop my coding abilities. My objective was
 
 ## Live Preview
 
-You can view a live preview of the landing page [here](https://travel-agency-landing-page-design-git-feature-rea-956f4c-aldask.vercel.app/).
+You can view a live preview of the landing page [here](https://travel-agency-landing-page-design-aldask.vercel.app/).
 
 ## Installation and Usage
 
