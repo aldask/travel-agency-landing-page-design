@@ -1,0 +1,334 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: darkgrey;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* HEADER */
+
+header {   
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    background-color: white;
+    z-index: 1;
+}
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+    margin: 0 100px 0;
+}
+.nav_elements {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    align-items: center;
+    gap: 64px;
+}
+.button {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    transition: 0.3s;
+}
+.button:hover {
+    font-weight: 700;
+    color:#EE6C4D;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+/* SHARED CLASSES */
+/* Button */
+.interactive {
+    padding: 5px 25px;
+    color: white;
+    border-radius: 25px;
+    background-color: #EE6C4D;
+    font-weight: 700;
+}
+.interactive:hover {
+    background-color: #ff3300;
+    color: rgba(250, 250, 250, 0.74);
+}
+.container {
+    display: flex;
+    flex-direction: column;
+}
+.black {
+    font-weight: 700;
+    color: #293241;
+}
+.orange {
+    font-weight: 700;
+    color: #EE6C4D;
+}
+
+/* HERO SECTION */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 105px;
+}
+.hero {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1240px;
+    width: 100%;
+    height: 630px;
+    margin-bottom: 155px;
+}
+.heroH1 {
+    color: #EE6C4D;
+    font-weight: 700;
+    font-size: 50px;
+}
+p {
+    font-size: 20px;
+    color: #293241;
+    width: 360px;
+    margin-bottom: 24px;
+}
+
+/* DESTINATIONS SECTION */
+
+.popular_destinations {
+    background-image: url(assets/destinations_background.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+    height: 1053px;
+    margin-bottom: 190px;
+}
+.destinationsH1 {
+    color: white;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 100px;
+}
+.locations {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    gap: 45px;
+    
+}
+.city {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cities {
+    max-width: 275px;
+    width: 100%;
+    height: 455px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-bottom: 25px;
+}
+.cityInfo {
+    background-color: white;
+    border-radius: 12px;
+    max-width: 275px;
+    width: 100%;
+    margin: 5px;
+    padding: 15px;
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out; 
+}
+.city:hover .cityInfo {
+    opacity: 1;
+}
+.cityInfo h2 {
+    color: #293241;
+    size: 24px;
+}
+.cityInfo h3 {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* ABOUT SECTION */
+
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 680px;
+    margin-bottom: 355px;
+}
+.about h1{
+    color: rgb(0, 0, 0);
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 105px;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    overflow-x: hidden;
+}
+.txt {
+    margin-top: 80px;
+}
+.txt p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    max-width: 650px;
+    width: 100%;
+}
+.pic {
+    overflow: hidden;
+}
+.pic img {
+    width: 100%;
+    height: 100%;
+}
+
+/* SUBSCRIBE SECTION */
+
+.subscribe {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: #293241;
+    max-width: 1240px;
+    border-radius: 20px;
+    margin-bottom: 120px;
+}
+.img-side {
+    height: 100%;
+    line-height: 0;
+}
+.img-side > img {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.sub-side {
+    margin-left: 100px;
+}
+.sub-side p {
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    max-width: 515px;
+    margin-bottom: 55px;
+}
+.email {
+    min-width: 360px;
+    height: 50px;
+    border-radius: 20px;;
+    border: none;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.607);
+}
+#emailInput {
+    padding-left: 25px;
+}
+.submit {
+    min-width: 135px;
+    height: 50px;
+    color: white;
+    border-radius: 25px;
+    background-color: #EE6C4D;
+    font-weight: 700;
+    border: none;
+    margin-left: 20px;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.607);
+}
+.submit:hover {
+    background-color: #ff3300;
+    color: rgba(250, 250, 250, 0.74);
+}
+.submit {
+    font-size: 18px;
+    transition: 0.3s;
+}
+.subscribeH1 {
+    font-size: 36px;
+    font-weight: 700;
+    color: white;
+}
+
+/* FOOTER SECTION */
+
+footer {
+    background-image: url(assets/footer_background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    height: auto;
+    padding-bottom: 120px;
+}
+.box1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 160px;
+    gap: 110px
+}
+.whiteLogo {
+    filter: invert(95%) sepia(95%) saturate(19%) hue-rotate(283deg) brightness(105%) contrast(105%);
+}
+.interactiveButtons {
+    display: flex;
+    flex-direction: row;
+    width: 150px;
+    justify-content: space-between;
+}
+.box2, .box3, .box4, .box5 {
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    margin-top: 160px;
+}
+.box1 a, .box2 a, .box3 a, .box4 a, .box5 a {
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+    line-height: 3;
+}
+h4 {
+    margin-bottom: 50px;
+    color: white;
+    font-weight: 700;
+}
