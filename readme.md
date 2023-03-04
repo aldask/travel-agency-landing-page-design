@@ -4,7 +4,9 @@
 ![CSS](https://img.shields.io/badge/CSS-3-blue?style=flat-square&logo=css3)
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow?style=flat-square&logo=javascript)
 
--
+## Description
+
+soon
 
 ## Table of Contents
 
@@ -12,12 +14,11 @@
 - [Installation and Usage](#installation-and-usage)
 - [Technologies Used](#technologies-used)
 - [Contributing](#contributing)
-- [Credits](#credits)
 - [License](#license)
 
 ## Screenshots
 
-screenshot later
+soon
 
 ## Installation and Usage
 
@@ -40,15 +41,15 @@ The website was built using the following technologies:
 
 Contributions are welcome! If you would like to contribute to the project, please fork the repository and submit a pull request.
 
-## Credits
-
-This project was created by **Aldas Kasputis**. It was built to improve my web development skills.
-
 ## License
 
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
 
-## Contact
+## Contact and Credits
+
+This project was created by **Aldas Kasputis.**
 
 - LinkedIn: [https://www.linkedin.com/in/aldas-k-2ab99b1b4/]
 - GitHub: [https://github.com/aldask]
+
+If you have any questions or feedback, feel free to reach out to me through one of these channels. Thank you for checking out my project!
