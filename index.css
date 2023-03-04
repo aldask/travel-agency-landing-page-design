@@ -46,9 +46,6 @@ header {
     cursor: pointer;
     font-size: 20px;
 }
-.button:nth-child(1) {
-    font-weight: 700;
-}
 
 /* SHARED CLASSES */
 /* Button */
