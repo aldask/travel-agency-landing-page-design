@@ -290,7 +290,7 @@ footer {
     overflow-x: hidden;
     overflow-y: hidden;
     height: auto;
-    padding-bottom: 120px;
+    padding-bottom: 10px;
 }
 .box1 {
     display: flex;
